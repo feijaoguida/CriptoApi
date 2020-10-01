@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
+
+body{
+  width: 100%;
+  max-width: 1120px;
+  min-height: 100vh;
+  
+}
+
+.title{
+  width: 100%;
+  background-color: #e6eaff;
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  font-size: larger;
+  font-weight: 800;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin-left: 9%;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#coins{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  justify-content: center;
+}
+
+
+.media{
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 7px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.media:first {
+  margin-top: 20px !important;
+}
+
+.media p {
+  font-size: small;
+  line-height: 3px;
+  border: 0px;
+  
+}
+
+.media p span{
+  font-weight: 800;
+  
+}
